@@ -33,6 +33,7 @@ import org.jboss.shrinkwrap.api.ShrinkWrap;
 import org.jboss.shrinkwrap.api.spec.JavaArchive;
 import org.jboss.shrinkwrap.api.spec.ResourceAdapterArchive;
 
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import static org.junit.Assert.*;
@@ -45,6 +46,7 @@ import org.jboss.jca.sample.listfiles.*;
  * @version $Revision: $
  */
 @RunWith(Arquillian.class)
+@Ignore("old test")
 public class ConnectorTestCase
 {
    private static Logger log = Logger.getLogger("ConnectorTestCase");
